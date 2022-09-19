@@ -11,11 +11,12 @@
 @stop
 
 @section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="{{ asset('css/w3.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 @stop
 
 @section('js')
-    <script> console.log('Hi!'); </script>
+    
 @stop
-Now, and as usual, you just return this view from a controller. It is a recommendation to check out AdminLTE v3 to find out how to build beautiful content for your admin panel. As a preview, the next image shows what you can get with the previous blade template:
 
